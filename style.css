@@ -1,62 +1,123 @@
-/* General Styling */
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Crimson Text', serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f8f8f8; /* Soft neutral background */
     color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 18px; /* Reduced font size */
+    font-weight: 400; /* Normal weight for a more comfortable look */
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+/* Container and Main Layout */
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    flex-grow: 1;
+}
+
+/* Header Styles */
+.header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-nav a {
-    color: #fff;
+.series-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em; /* Slightly smaller title */
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.series-subtitle {
+    font-family: 'Crimson Text', serif;
+    font-weight: 500; /* Moderate weight */
+    font-size: 1.2em; /* Smaller subtitle */
+    color: #6c7a89;
+    margin: 10px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle-text:before,
+.subtitle-text:after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #c0c0c0;
+    margin: 0 10px;
+}
+
+/* Main Content Styles */
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+/* Aims and Topics List Styles */
+.topics-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.topics-list li {
+    margin-bottom: 8px;
+}
+
+/* Individual Conference Styles */
+.conference {
+    margin-bottom: 25px;
+}
+
+.conference h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.8em; /* Reduced size for conference headers */
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+.conference p {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.1em; /* Slightly smaller for better balance */
+    color: #6c7a89;
+    margin: 5px 0;
+}
+
+/* Hyperlink Styles (Consistent Font) */
+a {
+    font-family: 'Crimson Text', serif; /* Set to the same font as the body */
+    font-size: 1em; /* Adjusted link size */
+    color: #2980b9;
     text-decoration: none;
-    margin: 0 15px;
+    font-weight: 500; /* Slightly bold to stand out */
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-main {
-    padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
+/* Footer Styles */
+.footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    position: relative;
-    bottom: 0;
+    padding: 15px 0;
+    background-color: #2c3e50;
+    color: #ffffff;
+    font-size: 0.9em; /* Slightly reduced footer text size */
+    margin-top: auto;
     width: 100%;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-table th, table td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-}
-
-table th {
-    background-color: #333;
-    color: #fff;
+    border-radius: 8px 8px 0 0;
 }

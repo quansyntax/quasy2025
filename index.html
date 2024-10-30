@@ -1,30 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUASY 2025 - Quantitative Syntax Conference</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to QUASY 2025</h1>
-        <p>The 3rd International Conference on Quantitative Syntax</p>
-        <p>Date: April 15-17, 2025 | Venue: TBD</p>
-        <nav>
-            <a href="call-for-papers.html">Call for Papers</a> |
-            <a href="program.html">Program</a> |
-            <a href="registration.html">Registration</a> |
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1 class="series-title">QUASY 2025</h1>
+            <p class="series-subtitle">
+                <span class="subtitle-text">Quantitative Syntax 2025, Ljubljana, August 26-29, 2025</span>
+            </p>
+
+        </header>
+
+        <!-- Navigation Section -->
+        <nav class="navbar" style="display: flex; justify-content: space-around; padding: 10px 0;">
+            <a href="index.html">Home</a>
+            <a href="call-for-papers.html">Call for Papers</a>
+            <a href="program.html">Program</a>
+            <a href="committee.html">Committee</a>
+            <a href="registration.html">Registration</a>
+            <a href="venue.html">Venue and Travel</a>
             <a href="contact.html">Contact</a>
         </nav>
-    </header>
-    <main>
-        <h2>About QUASY 2025</h2>
-        <p>The QUASY conference is a leading forum for the discussion of quantitative approaches to syntactic theory. This is the third edition of QUASY, following successful conferences in 2019 and 2021.</p>
-    </main>
-    <footer>
-        <p>© 2025 QUASY Conference Committee</p>
+
+        <header class="header">
+        <img src="images/city.jpeg" alt="Ljubljana city view" class="city-image" style="width: 100%; max-width: 800px; height: auto; margin-top: 20px;">
+        </header>
+        <!-- Main Content Section -->
+        <main class="content">
+            <!-- Home/Intro Section -->
+            <section id="intro" class="section">
+                <h2>Welcome to QUASY 2025</h2>
+                <p>QUASY 2025, the third workshop in the QUASY series, is dedicated to advancing quantitative approaches in syntactic research. This year, QUASY will be held in Ljubljana, Slovenia, from August 26-29, 2025, as part of <a href="https://syntaxfest.github.io/syntaxfest25/index.html" target="_blank">SyntaxFest 2025</a>.</p>
+                <p>QUASY brings together researchers interested in exploring syntactic theory through quantitative, statistical, and computational methods. We encourage contributions that address all areas of syntax using empirical data, including corpus studies, treebank analyses, and statistical modeling.</p>
+
+            </section>
+
+            <!-- Important Dates Section -->
+            <section id="dates" class="section">
+                <h2>Important Dates</h2>
+                <ul class="dates-list">
+                    <li>First call for papers: December 2024</li>
+                    <li>Paper submission deadline: April 2025</li>
+                    <li>Notification of acceptance: June 2025</li>
+                    <li>Conference Dates: August 26-29, 2025</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>© 2025 QUASY Conference Committee. All rights reserved.</p>
     </footer>
 </body>
 </html>
