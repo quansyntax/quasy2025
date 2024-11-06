@@ -121,3 +121,52 @@ a:hover {
     width: 100%;
     border-radius: 8px 8px 0 0;
 }
+
+/* Responsive Styles - Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .series-title {
+        font-size: 2em; /* Adjust title size for tablets */
+    }
+    .series-subtitle {
+        font-size: 1.1em; /* Adjust subtitle size for tablets */
+    }
+    .conference h3 {
+        font-size: 1.6em; /* Adjust conference header size for tablets */
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar a {
+        padding: 10px;
+        margin: 5px 0;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .series-title {
+        font-size: 1.8em; /* Adjust title size for phones */
+    }
+    .series-subtitle {
+        font-size: 1em; /* Adjust subtitle size for phones */
+    }
+    .conference h3 {
+        font-size: 1.4em; /* Adjust conference header size for phones */
+    }
+    .conference p {
+        font-size: 1em; /* Reduce paragraph size for better readability */
+    }
+    .navbar a {
+        font-size: 0.9em;
+    }
+    .content {
+        padding: 10px;
+    }
+    .footer {
+        font-size: 0.8em; /* Smaller footer text for phones */
+    }
+}
