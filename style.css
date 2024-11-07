@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8; /* Soft neutral background */
-    color: #333;
+    color: rgb(47, 76, 92);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,7 +41,7 @@ body {
     font-family: 'Crimson Text', serif;
     font-weight: 500; /* Moderate weight */
     font-size: 1.2em; /* Smaller subtitle */
-    color: #6c7a89;
+    color: rgb(47, 76, 92);
     margin: 10px 0 20px;
     display: flex;
     align-items: center;
@@ -101,7 +101,7 @@ body {
 a {
     font-family: 'Crimson Text', serif; /* Set to the same font as the body */
     font-size: 1em; /* Adjusted link size */
-    color: #2980b9;
+    color: rgb(7, 149, 166);
     text-decoration: none;
     font-weight: 500; /* Slightly bold to stand out */
 }
