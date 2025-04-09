@@ -2,42 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>QUASY 2025 - Program</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <img src="images/logo2025.png" alt="QUASY Logo" class="logo-image" style="width: 100%; max-width: 350px; height: auto; margin-top: 10px;">
-            <p class="series-subtitle">
-                <span class="subtitle-text">Quantitative Syntax 2025, Ljubljana, August 26-29, 2025</span>
-            </p>
-        </header>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="images/logo2025.png" alt="QUASY Logo" class="logo-image">
+        <p class="series-subtitle">
+            <span class="subtitle-text">Quantitative Syntax 2025, Ljubljana, August 26-29, 2025</span>
+        </p>
+    </header>
 
-        <!-- Navigation Section -->
-        <nav class="navbar" style="display: flex; justify-content: space-around; padding: 10px 0;">
+    <!-- Navigation Section -->
+    <nav class="navbar">
+        <div class="nav-content">
             <a href="index.html">HOME</a>
             <a href="call-for-papers.html">CALL FOR PAPERS</a>
             <a href="program.html">PROGRAM</a>
             <a href="committee.html">COMMITTEE</a>
             <a href="registration.html">REGISTRATION</a>
             <a href="venue.html">VENUE AND TRAVEL</a>
-        </nav>
+        </div>
+    </nav>
 
-        <!-- Main Content Section -->
-        <main class="content">
+    <!-- Main Content Layout (with centered content) -->
+    <div class="content-wrapper">
+        <!-- Main Content Column -->
+        <main class="main-content">
             <!-- Page-Specific Content -->
             <section id="page-content" class="section">
                 <h2>Program</h2>
-                <p>Details about the program are currently being developed. Please check back later for updates. </p>
+                <p>Details about the program are currently being developed. Please check back later for updates.</p>
+                
+                <h3>Keynote Speaker</h3>
+                <div class="keynote-speakers">
+                    <div class="keynote-speaker centered-layout">
+                        <div class="speaker-photo-centered">
+                            <img src="images/xiaofei-lu.jpg" alt="Prof. Xiaofei Lu">
+                        </div>
+                        <h4 class="speaker-name-centered"><a href="https://sites.psu.edu/xxl13/">Prof. Xiaofei Lu</a></h4>
+                        <p class="speaker-affiliation-centered">The Pennsylvania State University</p>
+                        <div class="speaker-bio-single">
+                            <p class="speaker-bio">Xiaofei Lu is the George C. and Jane G. Greer Professor of Applied Linguistics and Asian Studies at The Pennsylvania State University. His research has long centered on computational and quantitative analyses of linguistic complexity in reading materials, second language production, and academic writing. His current work explores mappings between linguistic forms and rhetorical/pragmatic functions in language production and sense-aware measurements of linguistic complexity that account for the specific meanings of polysemous linguistic forms in context. He has published over 90 peer-reviewed articles in leading journals, including Applied Linguistics, Behavior Research Methods, Computer Assisted Language Learning, Language Learning, Studies in Second Language Acquisition, TESOL Quarterly, and The Modern Language Journal. He received the 2023 Ken Hyland Best Paper Award from the Journal of English for Academic Purposes. His latest book, Corpus Linguistics and Second Language Acquisition: Perspective, Issues, and Findings, was published by Routledge in 2023.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+        
             </section>
         </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Important Dates Section -->
+            <section class="section sidebar-section">
+                <h2>Important Dates</h2>
+                <ul class="dates-list">
+                    <li><strong>Extended Submission Deadline:</strong> 22 April 2025</li>
+                    <li><strong>Acceptance Notification:</strong> 2 June 2025</li>
+                    <li><strong>Camera-Ready Submission Deadline:</strong> 16 June 2025</li>
+                    <li><strong>Conference Dates:</strong> 26-29 August 2025</li>
+                </ul>
+            </section>
+            
+            <!-- Conference Information -->
+            <section class="section sidebar-section">
+                <h2>Conference Venue</h2>
+                <p>Faculty of Law<br>
+                University of Ljubljana<br>
+                Poljanski nasip 2<br>
+                Ljubljana, Slovenia</p>
+                <p><a href="venue.html">More details on venue and travel</a></p>
+            </section>
+            
+    
+        </aside>
     </div>
 
-    <!-- Footer Section -->
+    <!-- Footer Section (full width) -->
     <footer class="footer">
         <p>© 2025 QUASY Conference Committee. All rights reserved.</p>
     </footer>

@@ -2,42 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>QUASY 2025 - Committee</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <img src="images/logo2025.png" alt="QUASY Logo" class="logo-image" style="width: 100%; max-width: 350px; height: auto; margin-top: 10px;">
-            <p class="series-subtitle">
-                <span class="subtitle-text">Quantitative Syntax 2025, Ljubljana, August 26-29, 2025</span>
-            </p>
-        </header>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="images/logo2025.png" alt="QUASY Logo" class="logo-image">
+        <p class="series-subtitle">
+            <span class="subtitle-text">Quantitative Syntax 2025, Ljubljana, August 26-29, 2025</span>
+        </p>
+    </header>
 
-        <!-- Navigation Section -->
-        <nav class="navbar" style="display: flex; justify-content: space-around; padding: 10px 0;">
+    <!-- Navigation Section -->
+    <nav class="navbar">
+        <div class="nav-content">
             <a href="index.html">HOME</a>
             <a href="call-for-papers.html">CALL FOR PAPERS</a>
             <a href="program.html">PROGRAM</a>
             <a href="committee.html">COMMITTEE</a>
             <a href="registration.html">REGISTRATION</a>
             <a href="venue.html">VENUE AND TRAVEL</a>
-        </nav>
+        </div>
+    </nav>
 
-        <!-- Main Content Section -->
-        <main class="content">
+    <!-- Main Content Layout (with centered content) -->
+    <div class="content-wrapper">
+        <!-- Main Content Column -->
+        <main class="main-content">
             <!-- Page-Specific Content -->
             <section id="page-content" class="section">
                 <h2>Program Committee</h2>
                 <p>This list may receive updates.</p>
+                
                 <h3>Organizers</h3>
                 <ul>
                     <li>Xinying Chen (University of Ostrava)</li>
                     <li>Yaqin Wang (Guangdong University of Foreign Studies)</li>
                 </ul>
+                
                 <h3>Local Organizing Committee</h3>
                 <ul>
                     <li>Kaja Dobrovoljc (University of Ljubljana, chair)</li>
@@ -47,21 +52,26 @@
                     <li>Matej Klemen (University of Ljubljana)</li>
                     <li>Sara Kos (University of Ljubljana)</li>
                 </ul>
+                
+                <h3>Scientific Committee</h3>
+                <p>The scientific committee members will be announced soon.</p>
             </section>
         </main>
-    </div>
 
-    <!-- Footer Section -->
-    <footer class="footer">
-        <p>© 2025 QUASY Conference Committee. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            
+            <!-- QUASY Series Information -->
+            <section class="section sidebar-section">
+                <h2>About QUASY</h2>
+                <p>QUASY is a workshop series dedicated to advancing quantitative approaches to syntactic research.</p>
+                <p><a href="https://quansyntax.github.io/quasy/" target="_blank">Learn more about the QUASY series</a></p>
             </section>
-        </main>
+            
+        </aside>
     </div>
 
-    <!-- Footer Section -->
+    <!-- Footer Section (full width) -->
     <footer class="footer">
         <p>© 2025 QUASY Conference Committee. All rights reserved.</p>
     </footer>
